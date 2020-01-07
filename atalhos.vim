@@ -49,19 +49,22 @@ ce " 3x change to word end
 d]m " delete to start of next method
 % "jump to match of next paren or bracket
 
-Ctrl-B  "Scrola muito pra cima
-Ctrl-U "Scrola um pouquinho pra cima
-Ctrl-Y "scrola uma linha pra cima
-Ctril- E "scrola uma linha pra baixo
-Ctrl - D "scrola um pouco pra baixo
-Ctrl - F "Scrola muito pra baixo
+Examples:
 
+Ctrl-B  "Srow up a lot
+Ctrl-U "Scrow up a bit
+Ctrl-Y "scrow a line up
+Ctril- E "scrow a line down
+Ctrl - D "scrow a bit down
+Ctrl - F "Scrow up a lot
+
+Cursor Navigation
 H - High
 M - Middle
 L - Low
 
-zt "poe cursor no top da screen
-zz " no middle
-zb "no botton
+zt "put the curson on the top of screen
+zz " put the curson on the middle of screen
+zb " put the curson on the botton of the screen
 
 
