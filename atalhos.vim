@@ -48,6 +48,9 @@ ce " 3x change to word end
 4$ " 4x go to end of line
 d]m " delete to start of next method
 % "jump to match of next paren or bracket
+:read !ls *pdf "read the name of all the pdf files in directory
+
+
 
 Examples:
 
@@ -57,6 +60,7 @@ Ctrl-Y "scrow a line up
 Ctril- E "scrow a line down
 Ctrl - D "scrow a bit down
 Ctrl - F "Scrow up a lot
+
 
 Cursor Navigation
 H - High
