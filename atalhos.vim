@@ -1,4 +1,3 @@
-3
 Esc " nomal mode
 i, a, c " insert mode
 v,V, <Ctrl"v> "Visual MOde 
@@ -8,6 +7,10 @@ windo difft " faz diff em arquivos abertos
 operator
 c " change
 d" delete
+s "substitui e entra em modo de inserção
+S "substitui a linha completa
+o "Abre uma linha abaixo
+O "Abre uma linha acima e entra em modo de inserção
 y " yank into register
 ~ " swap case
 gu " make lowercase
@@ -36,9 +39,7 @@ it " inner tag block
 [count] h/j/k/l " left,down, up, right
 [count] ]m " go to beginning of next method
 [count] w/W " go a word/WORD to the right
-[count] b/B " go a word/WORD to the left 
 [count] e/E "o to end of word/WORD right
-
 "putting it all togethr
 [count][operator][text object/ motion]
 
@@ -48,6 +49,7 @@ ce " 3x change to word end
 4$ " 4x go to end of line
 d]m " delete to start of next method
 % "jump to match of next paren or bracket
+%s/"/'/g "substitui todas as ocorrencias de aspas duplas por aspas simples
 
 Ctrl-B  "Scrola muito pra cima
 Ctrl-U "Scrola um pouquinho pra cima
