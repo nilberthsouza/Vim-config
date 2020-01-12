@@ -42,6 +42,7 @@ it " inner tag block
 [count] e/E "o to end of word/WORD right
 "putting it all togethr
 [count][operator][text object/ motion]
+crlt O e ctrl i avançam entre ultimos saltos
 
 6+ "6x go down to line start
 gUaW " capitalize a WORD
@@ -52,7 +53,8 @@ d]m " delete to start of next method
 %s/"/'/g "substitui todas as ocorrencias de aspas duplas por aspas simples
 d) "deleta até o fim do paragrafo
 d( "deleta até o inicio do paragrafo
-
+% "vai pra chave que fecha a chave onde o cursor se encontra
+gi "go to insert, volta pra lugar onde você tava editando
 :read !ls *pdf "read the name of all the pdf files in directory
 
 
