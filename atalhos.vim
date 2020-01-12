@@ -50,6 +50,9 @@ ce " 3x change to word end
 d]m " delete to start of next method
 % "jump to match of next paren or bracket
 %s/"/'/g "substitui todas as ocorrencias de aspas duplas por aspas simples
+d) "deleta até o fim do paragrafo
+d( "deleta até o inicio do paragrafo
+
 
 Ctrl-B  "Scrola muito pra cima
 Ctrl-U "Scrola um pouquinho pra cima
