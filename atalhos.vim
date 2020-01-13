@@ -3,6 +3,8 @@ i, a, c " insert mode
 v,V, <Ctrl"v> "Visual MOde 
 command"line mode  :,/
 
+vsplit "divide verticalmente a tela
+
 windo difft " faz diff em arquivos abertos
 operator
 c " change
