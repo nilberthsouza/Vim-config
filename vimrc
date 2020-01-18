@@ -1,4 +1,3 @@
-
 set number "numera as linhas
 set linebreak "quebra a linha sem quebrar a palavra
 set nobackup "não salva arquivos de backup
@@ -23,7 +22,7 @@ set incsearch "Pesquisa incremental
 set ignorecase "Auto explicativo 
 set smartcase "Se a pesquisa for tudo minusculo, ignora o case, mas se houver pelo menos um caractere maiusculo o comportamento muda
 
-"desativa arrow keys
+"disativa arrow keys
 no <down> <Nop>
 no <left> <Nop>
 no <right> <Nop>
@@ -51,3 +50,29 @@ let g:comfortable_motion_scroll_up_key="k"
 
 execute pathogen#infect()
 filetype plugin indent on
+
+"Highlights matches when jumping to next 
+
+nnoremap <silent> n n:call HLNext(0.4)<cr>
+nnoremap <silent> N N:call HLNext(0.4)<cr>
+
+function! HLNext(blinktime)
+    set invcursorline
+    redraw
+    exec 'sleep' . float2nr(a:blinktime * 1000) . 'm'
+    set invcursorline
+    redraw
+endfunction
+
+"remapeia ; para :
+nnoremap ; : 
+
+augroup NoSimultaneousEdits
+    autocmd!
+    autocmd SwapExists * let v:swapchoice = 'o'
+    autocmd SwapExists * echomsg ErrorMsg
+    autocmd SwapExists * echo 'Duplicate edit session(readonly)'
+    autocmd SwapExists * echohl None
+augroup END
+
+
