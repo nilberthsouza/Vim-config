@@ -1,0 +1,4 @@
+window manager -> keyboard -> Fill window vertically : Ctrl+Shift+Left
+windows manager ->keyboard -> Fill window horizontally : Crtl+Shift+up
+windows manager ->keyboard -> lowe window: Shift+Alt+ Page Down
+windows manager ->keyboard -> fill window : Alt F10
