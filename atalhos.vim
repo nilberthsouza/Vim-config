@@ -1,3 +1,5 @@
+"Meus atalhos mais usados
+
 Esc " nomal mode
 i, a, c " insert mode
 v,V, <Ctrl"v> "Visual MOde 
