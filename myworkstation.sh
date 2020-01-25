@@ -8,3 +8,4 @@ cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stab
 
 sudo apt install tmux &&
 
+echo "finalizado"
