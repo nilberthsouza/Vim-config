@@ -1,4 +1,6 @@
 set number "numera as linhas
+set guifont=DroidSansMono\ Nerd\ Font\ 12
+set encoding=utf8
 set linebreak "quebra a linha sem quebrar a palavra
 set nobackup "não salva arquivos de backup
 set wildmode=longest,list "completa o comando com tab igual no bash
@@ -48,6 +50,16 @@ let g:comfortable_motion_scroll_up_key="k"
 "set keymodel=startsel,stopsel
 "set selection=exclusive
 
+
+"Garante que dev icons funciona
+set guifont=DroidSansMono\ Nerd\ Font\ 12
+set encoding=utf8
+
+"Pro dev icons funcionar com o Airline
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'codedark'
+
+
 execute pathogen#infect()
 filetype plugin indent on
 
@@ -74,5 +86,17 @@ augroup NoSimultaneousEdits
     autocmd SwapExists * echo 'Duplicate edit session(readonly)'
     autocmd SwapExists * echohl None
 augroup END
+
+
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
+Plug 'tomasiser/vim-code-dark
+
+call plug#end()
+
+let g:iced_enable_default_key_mappings = v:true
 
 
