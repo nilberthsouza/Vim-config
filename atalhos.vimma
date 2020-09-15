@@ -1,19 +1,19 @@
-"Meus atalhos mais usados
+"My most used shortcuts
 
 Esc " nomal mode
 i, a, c " insert mode
 v,V, <Ctrl"v> "Visual MOde 
 command"line mode  :,/
 
-vsplit "divide verticalmente a tela
+vsplit "vertically divides the screen
 
-windo difft " faz diff em arquivos abertos
+windo difft " diff on open files
 operator
 c " change
 d" delete
-s "substitui e entra em modo de inserção
-S "substitui a linha completa
-o "Abre uma linha abaixo
+s "replace and entes insertion mode
+S "replace the full line
+o "Opens a line bellow
 O "Abre uma linha acima e entra em modo de inserção
 y " yank into register
 ~ " swap case
