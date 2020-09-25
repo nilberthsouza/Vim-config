@@ -63,6 +63,7 @@ let g:airline_theme = 'codedark'
 execute pathogen#infect()
 filetype plugin indent on
 
+
 "Highlights matches when jumping to next 
 
 nnoremap <silent> n n:call HLNext(0.4)<cr>
@@ -76,6 +77,7 @@ function! HLNext(blinktime)
     redraw
 endfunction
 
+
 "remapeia ; para :
 nnoremap ; : 
 
@@ -88,14 +90,15 @@ augroup NoSimultaneousEdits
 augroup END
 
 
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'tomasiser/vim-code-dark
 
+
 call plug#end()
+
 
 let g:iced_enable_default_key_mappings = v:true
 
