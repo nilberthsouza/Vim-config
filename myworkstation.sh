@@ -15,6 +15,9 @@ sudo apt install visualboyadvance -y &&
 
 sudo apt install zsnes -y &&
 
+sudo apt install pcsxr -y &&
+
+sudo apt install xfce4-terminal &&
 
 
 echo "finalizado"
