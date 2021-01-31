@@ -13,6 +13,8 @@ sudo apt install pychess -y&&
 
 sudo apt install visualboyadvance -y &&
 
+sudo apt install git -y &&
+
 sudo apt install zsnes -y &&
 
 sudo apt install pcsxr -y &&
