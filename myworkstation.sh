@@ -15,6 +15,8 @@ sudo apt install visualboyadvance -y &&
 
 sudo apt install git -y &&
 
+sudo apt install mednaffe &&
+
 sudo apt install zsnes -y &&
 
 sudo apt install pcsxr -y &&
