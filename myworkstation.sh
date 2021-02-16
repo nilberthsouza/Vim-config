@@ -21,5 +21,8 @@ sudo apt install pcsxr -y &&
 
 sudo apt install xfce4-terminal &&
 
+sudo apt-get install simplescreenrecorder &&
+
+
 
 echo "finalizado"
