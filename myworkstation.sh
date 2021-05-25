@@ -25,6 +25,7 @@ sudo apt-get install xfce4-terminal &&
 
 sudo apt-get install simplescreenrecorder &&
 
+sudo apt-get install fbreader &&
 
 
 echo "finalizado"
