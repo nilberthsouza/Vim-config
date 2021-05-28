@@ -21,11 +21,14 @@ sudo apt-get install zsnes -y &&
 
 sudo apt-get install pcsxr -y &&
 
-sudo apt-get install xfce4-terminal &&
+sudo apt-get install xfce4-terminal -y &&
 
-sudo apt-get install simplescreenrecorder &&
+sudo apt-get install simplescreenrecorder -y &&
 
-sudo apt-get install fbreader &&
+sudo apt-get install fbreader -y &&
 
+sudo apt-get install vlc -y &&
+
+sudo apt-get install mcomix -y &&
 
 echo "finalizado"
