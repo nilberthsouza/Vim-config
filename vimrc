@@ -24,7 +24,7 @@ set incsearch "Pesquisa incremental
 set ignorecase "Auto explicativo 
 set smartcase "Se a pesquisa for tudo minusculo, ignora o case, mas se houver pelo menos um caractere maiusculo o comportamento muda
 
-"disativa arrow keys
+"desativa arrow keys
 no <down> <Nop>
 no <left> <Nop>
 no <right> <Nop>
@@ -95,7 +95,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'tomasiser/vim-code-dark
 Plug 'ryanoasis/vim-devicons'
-
 
 
 call plug#end()
