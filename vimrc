@@ -92,9 +92,10 @@ augroup END
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'tomasiser/vim-code-dark
+Plug 'ryanoasis/vim-devicons'
+
 
 
 call plug#end()
