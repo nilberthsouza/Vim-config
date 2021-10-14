@@ -11,6 +11,8 @@ sudo apt-get install tmux -y &&
 
 sudo apt-get install pychess -y&&
 
+sudo apt-get install okular -y &&
+
 sudo apt-get install visualboyadvance -y &&
 
 sudo apt-get install git -y &&
