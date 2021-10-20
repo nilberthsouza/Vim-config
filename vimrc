@@ -50,7 +50,6 @@ let g:comfortable_motion_scroll_up_key="k"
 "set keymodel=startsel,stopsel
 "set selection=exclusive
 
-
 "Garante que dev icons funciona
 set guifont=DroidSansMono\ Nerd\ Font\ 12
 set encoding=utf8
@@ -77,7 +76,6 @@ function! HLNext(blinktime)
     redraw
 endfunction
 
-
 "remapeia ; para :
 nnoremap ; : 
 
@@ -96,10 +94,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'tomasiser/vim-code-dark
 Plug 'ryanoasis/vim-devicons'
 
-
 call plug#end()
 
-
 let g:iced_enable_default_key_mappings = v:true
-
-
