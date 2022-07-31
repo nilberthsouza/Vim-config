@@ -1,0 +1,9 @@
+
+"executa o counter strike 1.6 no linux
+wine start hl.exe -game cstrike -steam -nocache -noasync -nosteamcontroller -nojoy -noipx -noforcemspd -noforcemaccel -noforcemparms
+
+"Executa o PPSSPP no linux
+flatpak run org.ppsspp.PPSSPP
+
+"Flycast
+flatpak run org.flycast.Flycast
