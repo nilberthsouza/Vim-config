@@ -1,4 +1,3 @@
-
 "executa o counter strike 1.6 no linux
 wine start hl.exe -game cstrike -steam -nocache -noasync -nosteamcontroller -nojoy -noipx -noforcemspd -noforcemaccel -noforcemparms
 
