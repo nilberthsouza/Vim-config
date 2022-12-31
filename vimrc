@@ -58,10 +58,8 @@ set encoding=utf8
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'codedark'
 
-
 execute pathogen#infect()
 filetype plugin indent on
-
 
 "Highlights matches when jumping to next 
 
