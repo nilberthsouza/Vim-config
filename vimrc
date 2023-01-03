@@ -4,17 +4,17 @@ set encoding=utf8
 set linebreak "quebra a linha sem quebrar a palavra
 set nobackup "não salva arquivos de backup
 set wildmode=longest,list "completa o comando com tab igual no bash
-set ignorecase "Ignora o case sensitive nas buscas
+set guioptions-=T "deixa a gui sem toolbar
 set smartcase "se tiver alguma letra maiustula ativa o sensitive case
+set ignorecase "Ignora o case sensitive nas buscas
 set smartindent "Auto-indenta
 set expandtab "identa com espaços
 set tabstop=4 "quantidade de espaços por identação
 set shiftwidth=4 "quantidade de espaços da autoidentação
-set guioptions-=T "deixa a gui sem toolbar
 set hlsearch     "high lightining search
 set spelllang=pt  "idioma
-set foldenable "habilidata agrupamento de blco
 set foldcolumn=1 "exibe coluna com + e - para agrupamentos
+set foldenable "habilidata agrupamento de blco
 set encoding=utf8
 syntax enable "ativa syntax marcada
 let python_highlight_all = 1 "ativa todas as marcações para python
